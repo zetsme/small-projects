@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  padding: 20px;
+}
+.container {
+  display: flex;
+  column-gap: 20px;
+}
+.controls {
+  min-width: max-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.controls input {
+  margin-right: 10px;
+}
