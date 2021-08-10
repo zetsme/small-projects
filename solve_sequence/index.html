@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <title>Document</title>
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <button id="start-btn">Start</button>
+    <div>
+      <form id="form" hidden>
+        <h3 id="task-index"></h3>
+        <p id="task-sequence"></p>
+        <input autocomplete="off" required pattern="[\d,. -]+" type="text" id="task-input"
+          placeholder="Enter your answer">
+        <button id="submit-btn" type="submit">Submit your answer</button>
+      </form>
+      <div id="results" hidden>
+        <h2>Test Results :</h2>
+        <ul id="results-list"></ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
